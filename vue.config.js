@@ -1,12 +1,12 @@
 module.exports = {
-  lintOnSave: false,
+  //lintOnSave: false,
   configureWebpack: {
     resolve: {
       alias: {
         'assets': '@/assets',
         'common': '@/common',
         'components': '@/components',
-        'networkk': '@/networkk',
+        'network': '@/network',
         'views': '@/views'
       }
     }
